@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nacime Laghezali — Développeur web et mobile</title>
+  <meta name="description" content="Portfolio de Nacime Laghezali, étudiant en BUT Informatique (DWM), à la recherche d'un stage de 14 semaines à partir d'avril 2027.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <a href="#" class="logo">Nacime Laghezali</a>
+    <nav>
+      <a href="#projets">Projets</a>
+      <a href="#competences">Compétences</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Je développe des applis web et mobiles qui servent vraiment.</h1>
+      <p>
+        Étudiant en 3<sup>e</sup> année de BUT Informatique à Nancy, je cherche un stage
+        de 14 semaines à partir du 12 avril 2027.
+      </p>
+      <div class="buttons">
+        <a href="CV_Nacime_Laghezali.pdf" class="btn btn-primary" download>Télécharger mon CV</a>
+        <a href="#contact" class="btn">Me contacter</a>
+      </div>
+    </div>
+
+    <div class="printer">
+      <div class="slot"></div>
+      <div class="paper-wrap">
+        <div class="receipt" role="img" aria-label="Ticket récapitulatif : BUT Informatique 3e année, stage au Nancy Handball, job RGIS, stage recherché de 14 semaines dès le 12 avril 2027">
+          <p class="r-title">NACIME LAGHEZALI</p>
+          <p class="r-center">Développeur web &amp; mobile<br>Villers-lès-Nancy</p>
+          <hr>
+          <ul>
+            <li><span>BUT Informatique DWM</span><span>3e année</span></li>
+            <li><span>Stage Nancy Handball</span><span>2026</span></li>
+            <li><span>Inventoriste RGIS</span><span>2 ans</span></li>
+          </ul>
+          <hr>
+          <ul>
+            <li><span>PHP / JS / Java</span><span>ok</span></li>
+            <li><span>Flutter / Dart</span><span>ok</span></li>
+            <li><span>SQL / Docker / Git</span><span>ok</span></li>
+          </ul>
+          <hr>
+          <ul class="r-total">
+            <li><span>STAGE RECHERCHÉ</span><span>14 SEM.</span></li>
+            <li><span>Début</span><span>12/04/2027</span></li>
+          </ul>
+          <hr>
+          <p class="r-center">Merci de votre visite</p>
+          <div class="barcode"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+
+    <section class="block" id="apropos">
+      <h2>À propos</h2>
+      <p class="about">
+        J'ai 20 ans et je suis en 3<sup>e</sup> année de BUT Informatique, parcours Développement
+        Web et Mobile, à l'IUT Nancy-Charlemagne. Lors de mon stage au Nancy Handball en 2026,
+        j'ai conçu l'application qui gère la buvette du club pendant les matchs. C'était mon
+        premier projet utilisé par de vraies personnes, et c'est ce qui me donne envie de
+        continuer : créer des applications réellement utiles. À côté des cours, je travaille
+        comme inventoriste chez RGIS depuis 2024 : j'ai l'habitude des délais et du travail bien fait.
+      </p>
+    </section>
+
+    <section class="block" id="projets">
+      <h2>Projets</h2>
+
+      <div class="projects">
+
+        <article class="project">
+          <a href="projets/buvette.html" class="shot">
+            <img src="img/projet1/screen2.png" alt="Application de gestion de buvette" onerror="this.parentElement.remove()">
+          </a>
+          <p class="meta">Stage, 2026</p>
+          <h3><a href="projets/buvette.html">Gestion de buvette</a></h3>
+          <p>Caisse, prise de commande, stocks en temps réel et statistiques pour la buvette du Nancy Handball.</p>
+          <p class="techs">PHP, JavaScript, MySQL, Bootstrap</p>
+          <a href="projets/buvette.html" class="link">Voir le projet</a>
+        </article>
+
+        <article class="project">
+          <a href="projets/nrv.html" class="shot">
+            <img src="img/projet2/screen1.png" alt="Billetterie du festival NRV" onerror="this.parentElement.remove()">
+          </a>
+          <p class="meta">Projet d'équipe, 2026</p>
+          <h3><a href="projets/nrv.html">Billetterie NRV</a></h3>
+          <p>Vente de billets en ligne pour le festival Nancy Rock Vibration.</p>
+          <p class="techs">PHP, Slim, PostgreSQL, JavaScript</p>
+          <a href="projets/nrv.html" class="link">Voir le projet</a>
+        </article>
+
+        <article class="project">
+          <a href="projets/voir-ensemble.html" class="shot">
+            <img src="img/projet3/screen1.png" alt="Application Voir Ensemble" onerror="this.parentElement.remove()">
+          </a>
+          <p class="meta">Projet tutoré en équipe, en analyse</p>
+          <h3><a href="projets/voir-ensemble.html">Voir Ensemble</a></h3>
+          <p>Application mobile de messagerie et d'organisation d'activités pour l'association Voir Ensemble.</p>
+          <p class="techs">Flutter, Dart</p>
+          <a href="projets/voir-ensemble.html" class="link">Voir le projet</a>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="block" id="competences">
+      <h2>Compétences</h2>
+      <dl class="skills">
+        <div><dt>Web</dt><dd>HTML, CSS, JavaScript, PHP, Slim, Twig, Eloquent</dd></div>
+        <div><dt>Mobile</dt><dd>Dart, Flutter</dd></div>
+        <div><dt>Données</dt><dd>MySQL, PostgreSQL, MariaDB, Oracle, PL/SQL</dd></div>
+        <div><dt>Java</dt><dd>POO, MVC, DAO, patrons de conception</dd></div>
+        <div><dt>Outils</dt><dd>Git, Docker, Power BI</dd></div>
+        <div><dt>Conception</dt><dd>UML, modélisation des données</dd></div>
+      </dl>
+    </section>
+
+    <section class="block contact" id="contact">
+      <h2>Contact</h2>
+      <p>Le plus simple, c'est un email.</p>
+      <a href="mailto:laghezali.nacime@gmail.com" class="mail">laghezali.nacime@gmail.com</a>
+      <div class="buttons">
+        <a href="https://www.linkedin.com/in/nacime-laghezali-04b370360/" target="_blank" rel="noopener" class="btn">LinkedIn</a>
+        <a href="https://github.com/nacimeoo" target="_blank" rel="noopener" class="btn">GitHub</a>
+        <a href="CV_Nacime_Laghezali.pdf" class="btn" download>CV</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>Nacime Laghezali, 2026</footer>
+
+</body>
+</html>
