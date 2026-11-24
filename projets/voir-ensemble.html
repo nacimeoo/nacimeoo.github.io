@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voir Ensemble — Nacime Laghezali</title>
+  <meta name="description" content="Application mobile à commande vocale pour l'association Voir Ensemble, projet tutoré en cours.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <a href="../index.html" class="logo">Nacime Laghezali</a>
+    <nav>
+      <a href="../index.html#projets">Projets</a>
+      <a href="../index.html#competences">Compétences</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="detail">
+
+    <a href="../index.html#projets" class="back">Retour aux projets</a>
+
+    <h1>Voir Ensemble</h1>
+    <p class="lead">Application mobile de messagerie et d'organisation d'activités pour l'association Voir Ensemble. Projet tutoré en équipe, en phase d'analyse.</p>
+
+    <div class="carousel">
+      <div class="carousel-track">
+        <img src="../img/projet3/screen1.png" alt="Site de l'association Voir Ensemble" onerror="this.remove()">
+        <img src="../img/projet3/screen2.png" alt="Maquette de l'application" onerror="this.remove()">
+      </div>
+      <button type="button" class="arrow prev" aria-label="Image précédente">‹</button>
+      <button type="button" class="arrow next" aria-label="Image suivante">›</button>
+      <div class="dots"></div>
+    </div>
+
+    <article class="detail-text">
+      <h2>Le besoin</h2>
+      <p>
+        L'association Voir Ensemble veut une application mobile pour échanger avec ses adhérents
+        et organiser ses activités, avec une organisation simple inspirée de WhatsApp.
+      </p>
+
+      <h2>Ce que nous avons défini</h2>
+      <p>Le projet est en phase d'analyse. Avec l'association, nous avons fixé :</p>
+      <ul>
+        <li><strong>Trois rôles :</strong> administrateur, modérateur et adhérent, chacun héritant des droits du précédent.</li>
+        <li><strong>Des groupes :</strong> un groupe par activité, et des groupes privés. Un message privé est un groupe à deux membres.</li>
+        <li><strong>Des sondages :</strong> pour une activité, chaque adhérent indique s'il vient seul, accompagné ou pas du tout. Les questions et les réponses peuvent aussi être personnalisées.</li>
+        <li><strong>Des comptes conformes au RGPD :</strong> chaque donnée collectée est justifiée, et les champs facultatifs expliquent à quoi ils servent.</li>
+      </ul>
+
+      <h2>Stack technique</h2>
+      <ul class="stack"><li>Flutter</li><li>Dart</li></ul>
+
+      <h2>Où en est le projet</h2>
+      <p>
+        L'analyse des besoins est en cours avec l'association. Le développement démarrera ensuite,
+        et cette page sera mise à jour au fil du projet.
+      </p>
+    </article>
+
+    <div class="detail-links">
+      <a href="../index.html#projets" class="btn">Retour aux projets</a>
+    </div>
+
+  </main>
+
+  <footer>Nacime Laghezali, 2026</footer>
+
+  <script src="../carousel.js"></script>
+</body>
+</html>

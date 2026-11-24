@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestion de buvette — Nacime Laghezali</title>
+  <meta name="description" content="Application web de gestion de buvette réalisée en stage pour le Nancy Handball.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <a href="../index.html" class="logo">Nacime Laghezali</a>
+    <nav>
+      <a href="../index.html#projets">Projets</a>
+      <a href="../index.html#competences">Compétences</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="detail">
+
+    <a href="../index.html#projets" class="back">Retour aux projets</a>
+
+    <h1>Gestion de buvette</h1>
+    <p class="lead">Application web de caisse et de gestion de stocks, conçue pendant mon stage pour la buvette du Nancy Handball.</p>
+
+    <div class="carousel">
+      <div class="carousel-track">
+        <img src="../img/projet1/screen1.png" alt="Écran de caisse" onerror="this.remove()">
+        <img src="../img/projet1/screen2.png" alt="Prise de commande" onerror="this.remove()">
+        <img src="../img/projet1/screen3.png" alt="Statistiques" onerror="this.remove()">
+        <img src="../img/projet1/screen4.png" alt="Gestion des stocks" onerror="this.remove()">
+
+      </div>
+      <button type="button" class="arrow prev" aria-label="Image précédente">‹</button>
+      <button type="button" class="arrow next" aria-label="Image suivante">›</button>
+      <div class="dots"></div>
+    </div>
+
+    <article class="detail-text">
+        <h2>Le besoin</h2>
+        <p>
+          Lors des événements sportifs, le club gérait sa buvette sans outil adapté : ventes,
+          stocks et budget étaient difficiles à suivre. Le trésorier devait en plus remplir
+          à la main les documents CERFA a chaque fois que l'association recevait un dont.
+        </p>
+
+        <h2>Ce que j'ai fait</h2>
+        <ul>
+          <li>Recueil des besoins auprès du club pour définir les fonctionnalités utiles.</li>
+          <li>Une caisse et une prise de commande simples à utiliser pendant les matchs.</li>
+          <li>Un suivi des stocks en temps réel.</li>
+          <li>Des statistiques de ventes et un suivi du budget.</li>
+          <li>La génération automatique des CERFA en PDF pour le trésorier.</li>
+        </ul>
+
+        <h2>Stack technique</h2>
+        <ul class="stack"><li>PHP</li><li>JavaScript</li><li>MySQL</li><li>Bootstrap</li></ul>
+
+        <h2>Le résultat</h2>
+        <p>
+          L'application est utilisée par le club lors de ses matchs. C'était mon premier projet
+          utilisé par de vraies personnes.
+        </p>
+      </article>
+
+    <div class="detail-links">
+      <a href="../index.html#projets" class="btn">Retour aux projets</a>
+    </div>
+
+  </main>
+
+  <footer>Nacime Laghezali, 2026</footer>
+
+  <script src="../carousel.js"></script>
+</body>
+</html>

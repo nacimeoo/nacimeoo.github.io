@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Billetterie NRV — Nacime Laghezali</title>
+  <meta name="description" content="Application web de billetterie pour le festival Nancy Rock Vibration, projet d'équipe.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <a href="../index.html" class="logo">Nacime Laghezali</a>
+    <nav>
+      <a href="../index.html#projets">Projets</a>
+      <a href="../index.html#competences">Compétences</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="detail">
+
+    <a href="../index.html#projets" class="back">Retour aux projets</a>
+
+    <h1>Billetterie NRV</h1>
+    <p class="lead">Application web de vente de billets pour le festival Nancy Rock Vibration, réalisée à trois en une semaine.</p>
+
+    <div class="carousel">
+      <div class="carousel-track">
+        <img src="../img/projet2/screen1.png" alt="Programme du festival" onerror="this.remove()">
+        <img src="../img/projet2/screen2.png" alt="Détail d'une soirée" onerror="this.remove()">
+        <img src="../img/projet2/screen3.png" alt="Panier" onerror="this.remove()">
+      </div>
+      <button type="button" class="arrow prev" aria-label="Image précédente">‹</button>
+      <button type="button" class="arrow next" aria-label="Image suivante">›</button>
+      <div class="dots"></div>
+    </div>
+
+    <article class="detail-text">
+      <h2>Le besoin</h2>
+      <p>
+        Le festival Nancy Rock Vibration avait besoin d'un site pour présenter sa programmation
+        et vendre ses billets en ligne, de la consultation des spectacles jusqu'au paiement.
+      </p>
+
+      <h2>Ce que j'ai fait</h2>
+      <p>Projet réalisé à trois. L'application couvre tout le parcours d'achat :</p>
+      <ul>
+        <li><strong>Programmation :</strong> liste des spectacles, détail des soirées et filtres par date et par style musical.</li>
+        <li><strong>Billetterie :</strong> panier, validation de la commande, paiement et création des billets.</li>
+        <li><strong>Jauge :</strong> affichage des places restantes pour chaque spectacle.</li>
+        <li><strong>Comptes :</strong> connexion et inscription, avec un rôle client et un rôle gestionnaire.</li>
+        <li><strong>Déploiement :</strong> mise en ligne sur le serveur de l'IUT avec Docker Compose.</li>
+      </ul>
+
+      <h2>Stack technique</h2>
+      <ul class="stack"><li>PHP 8</li><li>Slim 4</li><li>API REST</li><li>JWT</li><li>PostgreSQL</li><li>JavaScript</li><li>Sass</li><li>Docker Compose</li><li>Nginx</li></ul>
+      <p>Côté serveur, une API REST organisée en architecture hexagonale (domaine, cas d'usage, adaptateurs).</p>
+
+      <h2>Le résultat</h2>
+      <p>
+        Une billetterie complète, de la programmation au paiement, conçue et livrée en une semaine d'atelier.
+      </p>
+    </article>
+
+    <div class="detail-links">
+      <a href="https://github.com/nacimeoo/SAE-Atelier-1" target="_blank" rel="noopener" class="btn btn-primary">Voir le code sur GitHub</a>
+      <a href="../index.html#projets" class="btn">Retour aux projets</a>
+    </div>
+
+  </main>
+
+  <footer>Nacime Laghezali, 2026</footer>
+
+  <script src="../carousel.js"></script>
+</body>
+</html>
